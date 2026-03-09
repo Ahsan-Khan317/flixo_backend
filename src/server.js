@@ -14,7 +14,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://flixo12.netlify.app/',
+  origin: 'https://flixo12.netlify.app',
   credentials: true
 }));
 app.use(express.json());
