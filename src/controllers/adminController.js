@@ -1,4 +1,4 @@
-import User from '../models/user.js';
+import User from '../models/User.js';
 import Movie from '../models/Movie.js';
 
 export const getAllUsers = async (req, res) => {
